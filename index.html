@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PIN</title>
+	<link rel="stylesheet" href="css/style.css">
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div class="wrapper">
+		<div class="keyboard">
+		<input type="text" class="pin" maxlength="4" readonly value="">
+			<ul class="numbers">				<li class="js-number btn" data-number="1">1</li>
+				<li class="js-number btn" data-number="2">2</li>
+				<li class="js-number btn" data-number="3">3</li>
+				<li class="js-number btn" data-number="4">4</li>
+				<li class="js-number btn" data-number="5">5</li>
+				<li class="js-number btn" data-number="6">6</li>
+				<li class="js-number btn" data-number="7">7</li>
+				<li class="js-number btn" data-number="8">8</li>
+				<li class="js-number btn" data-number="9">9</li>
+				<li class="btn btn-default_1"> </li>
+				<li class="js-number btn btn_zero" data-number="0">0</li>
+				<li class="btn btn-default_2"> </li>
+			</ul>
+			<ul class="controls">
+				<li class="controll js-cancel controll--red btn">Cancel</li>
+				<li class="controll js-clear controll--yellow btn" data-controll="clr">Clear</li>
+				<li class="controll js-enter controll--green btn" data-controll="ent">Enter</li>
+				<li class="controll js-hide controll--blue btn" data-controll="4">Hide</li>
+			</ul>
+            <label class="sort_label">
+                <input type="checkbox" class="sort_checkbox" id="sort_checkbox">
+                Sort the numbers.
+            </label>
+		</div>
+	</div>
+
+
+	<script src='js/script.js'></script>
+</body>
+</html>
